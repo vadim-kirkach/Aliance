@@ -29,6 +29,16 @@
   border-bottom: 1px solid rgba(235, 235, 240, 0.2);
   z-index: 2;
   width: 100%;
+  transition: background-color 0.2s;
+}
+
+.navbar-light {
+  background: #fff;
+  color: rgb(41, 45, 51);
+}
+
+.navbar-light .header-logo-path {
+  fill: rgb(41, 45, 51);
 }
 
 .header {
