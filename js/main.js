@@ -3,6 +3,7 @@ const logo = document.querySelector(".logo-svg use");
 const mMenuToggle = document.querySelector(".mobile-menu-toggle");
 const menu = document.querySelector(".mobile-menu");
 
+
 const lightModeOn = (event) => {
   navbar.classList.add("navbar-light");
   logo.href.baseVal = "img/sprite.svg#logo";
@@ -34,3 +35,17 @@ mMenuToggle.addEventListener("click", (event) => {
   event.preventDefault();
   menu.classList.contains("is-open") ? closeMenu() : openMenu();
   });
+
+  const swiper = new Swiper('.swiper', {
+    speed: 400,
+    autoHeight: true,
+    loop: true,
+    spaceBetween: 100,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+  
+
+  
