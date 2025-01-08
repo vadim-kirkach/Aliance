@@ -68,7 +68,7 @@ html {
 
 .header {
   padding: 5.875rem;
-  min-height: 100vh;
+  
 }
 
 .header-image {
@@ -114,7 +114,7 @@ margin-right: 3%;
 .header-nav-link {
   text-decoration: none;
   font-size: 1.125rem;
-  
+  margin-right: 3.125rem;
   color: inherit;
   letter-spacing: .0056rem;
 }
@@ -204,15 +204,30 @@ cursor: pointer;
  }
 
  .header-features-item {
-  font-size: 16px;
-  max-width: 18rem;
+  min-height: 100%;
+  width: 18rem;
   padding: 1.875rem 3.125rem;
   border: 1px solid rgba(235, 235, 240, 0.2);
  }
 
- .header-features-item:not(:last-child) {
-  border-right: none;
+ .slider-buttons {
+  display: none;
+  height: 44px;
  }
+ .slider-button-prev,
+ .slider-button-next {
+  height: 100%;
+  flex-basis: 50%;
+  border: 1px solid rgba(235, 235, 240, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+ }
+
+ /*.header-features-item:not(:last-child) {
+  border-right: none;
+ }*/
 
  .header-button {
   padding: 1.5rem 4rem;
@@ -388,8 +403,11 @@ cursor: pointer;
     padding-left: 2rem;
     padding-right: 2rem;
   }
+  .slider-buttons {
+    display: flex;
  }
-
+ }
+ 
  @media (max-width: 992px) {
 html {
   font-size: 12px;
