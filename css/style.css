@@ -47,6 +47,10 @@ html {
   transition: background-color 0.2s, height 0.2s;
 }
 
+.logo {
+  display: none;
+}
+
 .logo-svg {
   width: 8.75rem;
   height: 2.75rem;
