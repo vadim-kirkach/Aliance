@@ -24,7 +24,7 @@ html {
 .container {
   max-width: 90rem;
   margin: auto;
-  margin-left: 145px;
+  margin-left: 9.0625rem;
 }
 
 
@@ -398,7 +398,7 @@ cursor: pointer;
   display: flex;
   flex-wrap: wrap;
   padding-top: 1.5rem;
-  width: 1450px;
+  max-width: 90.625rem;
  }
 
  .card {
@@ -436,7 +436,7 @@ color: rgb(130, 138, 153);
 font-size: 1rem;
 font-weight: 400;
 line-height: 160%;
-margin-bottom: 394px;
+margin-bottom: 24.625rem;
 }
 
 .card-image {
@@ -447,6 +447,61 @@ margin-bottom: 394px;
   z-index: 0;
   width: 90%;
 }
+
+.cards-mark {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1.5rem;
+  max-width: 90.625rem;
+ }
+
+ .card-mark {
+  display: flex;
+  flex-direction: flex-start;
+  text-decoration: none;
+  flex-basis: 50%;
+  position: relative;
+   border: 1px solid #ebebf0;
+   transition: border 0,2s;
+ }
+
+ .card-mark:hover .card-mark-title {
+  color: #5c8ee6;
+ }
+
+ .card-mark:hover {
+  border-color: #5c8ee6;
+ }
+
+
+ .card-mark-content {
+  padding: 3.1rem 3.1rem 3.1rem 0;
+ }
+
+ .card-mark-title {
+  color: rgb(41, 45, 51);
+  font-size: 1.75rem;
+  font-weight: 400;
+  text-align: left;
+  line-height: 140%;
+  margin-top: 0;
+  margin-bottom: ;
+  transition: color 0,2s;
+  }
+
+ .card-mark-text {
+  color: rgb(130, 138, 153);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: 0px;
+  }
+
+ .card-mark-image {
+  height: 11.25rem;
+  width: 11.25rem;
+  margin: 3.125rem 3.125rem 3.125rem 3.125rem;
+ }
 
  @media (max-width: 1700px) {
   html {
@@ -675,6 +730,10 @@ text-align: left;
   .container {
     min-width: 40rem;
   }
+  .container-white {
+    min-width: 40rem;
+  }
+
   .header-title {
     font-size: 4rem;
   }
@@ -688,6 +747,10 @@ text-align: left;
 
  @media (max-width: 576px) {
   .container {
+    min-width: 90%;
+  }
+
+  .container-white {
     min-width: 90%;
   }
   .header-title {
