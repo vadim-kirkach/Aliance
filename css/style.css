@@ -126,7 +126,7 @@ html {
 }
 
 .header-nav-item:not(:last-child) {
-margin-right: 3%;
+margin-right: 4%;
 }
 
 .header-nav-link {
@@ -135,7 +135,7 @@ margin-right: 3%;
   align-items: center;
   text-decoration: none;
   font-size: 1.125rem;
-  margin-right: 3.125rem;
+  /*margin-right: 3.125rem;*/
   color: inherit;
   letter-spacing: .0056rem;
   position: relative;
@@ -504,7 +504,7 @@ margin-bottom: 24.625rem;
   text-align: left;
   line-height: 140%;
   margin-top: 0;
-  margin-bottom: ;
+  
   transition: color 0,2s;
   }
 
