@@ -588,7 +588,7 @@ margin-bottom: 24.625rem;
     display: none;
   }
   .navbar {
-    height: 5rem;
+    height: 5.8rem;
   }
   .navbar-button {
     padding-left: 2rem;
@@ -621,13 +621,18 @@ html {
   flex-grow: 1;
   justify-content: center;
 }
+.logo-svg {
+  width: 9.75rem;
+  height: 3.75rem;
+  
+}
 .mobile-menu-toggle {
   width: 80px;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 1.8rem;
+  padding: 2.3rem 2.5rem;;
   border-right: 1px solid rgba(235, 235, 240, 0.2);
 }
 .navbar-light .mobile-menu-line {
@@ -755,9 +760,13 @@ text-align: left;
 
   .header-title {
     font-size: 4rem;
+    line-height: 120%;
   }
   .header-content {
     padding-top: 3rem;
+  }
+  .header-features {
+    margin-top: 3.8rem;
   }
   .card {
     flex-basis: 100%;
@@ -772,10 +781,32 @@ text-align: left;
   .container-white {
     min-width: 90%;
   }
-  .header-title {
-    font-size: 2.5rem;
+  .header-content {
+    padding-top: 3.95rem;
+  }
+
+  .header {
+    padding: 5.875rem 1.2rem;
+  } 
+
+  .header-text {
+      max-width: 45rem;
+      font-size: 1.325rem;
+      font-weight: 400;
+      line-height: 131%;
+      margin-bottom: 3rem;
+      margin-top: 1.5rem;
+      letter-spacing: 0.4px;
   }
   .header-content {
-    padding-top: 2rem;
+    padding-top: 3.97rem;
   }
+
+  .header-button {
+    padding: 1.5rem 7.1rem;
+    height: 62px;
+    width: 345px;
+    font-size: 1.4rem;
+  }
+
  }
