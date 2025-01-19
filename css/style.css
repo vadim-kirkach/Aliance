@@ -311,7 +311,7 @@ cursor: pointer;
  .section-title {
   font-family: 'Bebas Neue Book';
   font-size: 3.75rem;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 120%;
   color: rgb(41, 45, 51);
   margin-top: 1.5625rem;
@@ -586,7 +586,8 @@ margin-top: 10px;
 .founder {
   min-height: 41.25rem;
   position: relative;
-  padding: 0 94px;
+  padding: 0 5.875rem;
+  margin-top: 12.375rem;
 }
 
 .founder-photo {
@@ -600,6 +601,7 @@ margin-top: 10px;
 
 .founder-content {
   max-width: 45rem;
+  padding-left: 2rem;
 }
 
 .founder-content-wrapper {
@@ -609,15 +611,20 @@ margin-top: 10px;
 
 .founder-text {
   color: rgb(130, 138, 153);
-  font-size: 1rem;
+  font-size: 18px;
   font-weight: 400;
   line-height: 160%;
   text-align: left;
+  margin: 0;
 }
 
+.clients {
+  padding-top: 6.199rem;
+}
 .clients-wrapper {
   display: flex;
   gap: 3.125rem;
+  height: auto;
 }
 
 .clients-content {
@@ -626,8 +633,9 @@ margin-top: 10px;
 
 .clients-list {
   list-style: none;
-  padding: 0;
   columns: 2 auto;
+  margin-top: 43px;
+    padding: 0;
 }
 
 .clients-list-item {
@@ -635,14 +643,16 @@ margin-top: 10px;
   align-items:center;
   gap: 1.25rem;
   color: rgb(41, 45, 51);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 160%;
+  margin-bottom: 1.25rem;
 }
 .clients-logo-list {
   display: flex;
   flex-wrap: wrap;
   flex-shrink: 10;
+  padding-top: 1.875rem;
 }
 
 .clients-logo-item {
@@ -651,7 +661,6 @@ margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
   cursor: pointer;
 }
 
@@ -659,6 +668,10 @@ margin-top: 10px;
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
   transition: all 0.6s ease 0s;
+}
+
+.clients-logo{
+
 }
 
 .clients-logo {
