@@ -372,7 +372,7 @@ cursor: pointer;
   word-spacing: -0.99px;
  }
 
- .steps-link {
+ .button-link {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -383,7 +383,7 @@ cursor: pointer;
   line-height: 160%;
  }
 
- .steps-link::before {
+ .button-link::before {
   content: "";
   width: 40px;
   height: 1px;
@@ -392,7 +392,7 @@ cursor: pointer;
   transition: width 0.2s;
  }
 
- .steps-link:hover::before {
+ .button-link:hover::before {
   width: 60px;
  }
 
@@ -583,12 +583,98 @@ margin-top: 10px;
   color: #5C8EE6;
 }
 
+.founder {
+  min-height: 41.25rem;
+  position: relative;
+  padding: 0 94px;
+}
+
+.founder-photo {
+  position: absolute;
+  left: 0;
+  width: 40%;
+  top: 0;
+  height: 100%;
+  object-fit: cover;
+}
+
+.founder-content {
+  max-width: 45rem;
+}
+
+.founder-content-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.founder-text {
+  color: rgb(130, 138, 153);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  text-align: left;
+}
+
+.clients-wrapper {
+  display: flex;
+  gap: 3.125rem;
+}
+
+.clients-content {
+  flex-basis: 50%;
+}
+
+.clients-list {
+  list-style: none;
+  padding: 0;
+  columns: 2 auto;
+}
+
+.clients-list-item {
+  display: flex;
+  align-items:center;
+  gap: 1.25rem;
+  color: rgb(41, 45, 51);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+}
+.clients-logo-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 10;
+}
+
+.clients-logo-item {
+  flex-basis: 33%;
+  border: 1px solid #ebebf0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.clients-logo-item:hover .clients-logo {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  transition: all 0.6s ease 0s;
+}
+
+.clients-logo {
+max-width: 100%;
+width: 70px;
+height: 70px;
+filter: grayscale(95%);
+-webkit-filter: grayscale(95%);
+}
+
+
 
  @media (max-width: 1700px) {
   html {
     font-size: 14px;
   }
-  
  }
   /*
  @media (max-width: 1400px) {
@@ -673,7 +759,13 @@ margin-top: 10px;
  .trademark-card-logo {
   width: 100%;
  }
+.founder-content{
+  max-width: 35rem;
+}
 
+.clients-content {
+  flex-basis: 60%;
+}
  }
 
  @media (max-width: 992px) {
@@ -821,6 +913,10 @@ text-align: left;
 .trademark-cards {
   flex-direction: column;
 }
+
+.clients-wrapper {
+  flex-direction: column;
+}
  }
 
  @media (max-width: 768px) {
@@ -844,6 +940,11 @@ text-align: left;
   .card {
     flex-basis: 100%;
    }
+  .founder-photo {
+    position: relative;
+    width: 100%;
+    margin-bottom: 3.125rem;
+  }
  }
 
  @media (max-width: 576px) {
@@ -887,5 +988,11 @@ text-align: left;
     "logo title"
     "text text";
   }
+.clients-list{
+  columns: 1;
+}
 
+.clients-logo-item {
+  flex-basis: 50%;
+}
  }
