@@ -682,6 +682,10 @@ filter: grayscale(95%);
 -webkit-filter: grayscale(95%);
 }
 
+.blog {
+  padding-top: 11.399rem;
+}
+
 .blog-card {
   display: flex;
   flex-direction: column;
