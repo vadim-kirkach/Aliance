@@ -752,7 +752,7 @@ margin: 0px;
 .section-cta {
   position: relative;
   padding-top: 6.25rem;
-  margin-top: 9.375rem;
+  margin-top: 13.375rem;
   padding-bottom: 6.25rem;
 }
 
@@ -769,6 +769,7 @@ margin: 0px;
 }
 .cta-form {
   max-width: 51.25rem;
+  margin-right: 99px;
 }
 .cta-form-text {
 color: rgb(130, 138, 153);
