@@ -914,6 +914,11 @@ line-height: 160%;
   .header-phone {
     margin-right: 2rem;
   }
+
+  .cta-image {
+    width: 39rem;
+  }
+
  }
 
  @media (max-width: 1200px) {
@@ -961,6 +966,14 @@ line-height: 160%;
 .clients-content {
   flex-basis: 60%;
 }
+.cta-image {
+  display: none;
+}
+
+.cta-form {
+  margin: auto;
+}
+
  }
 
  @media (max-width: 992px) {
@@ -1140,6 +1153,17 @@ text-align: left;
     width: 100%;
     margin-bottom: 3.125rem;
   }
+  .input-group-wrapper {
+    flex-direction: column;
+    margin-left: .9375rem;
+    margin-right: .9375rem;
+  }
+  .cta-form-footer {
+    flex-direction: column;
+    margin-left: .9375rem;
+    margin-right: .9375rem;
+  }
+  
  }
 
  @media (max-width: 576px) {
@@ -1205,5 +1229,9 @@ text-align: left;
 
 .clients-logo-item {
   flex-basis: 50%;
+}
+
+.cta-form-button {
+  width: 100%;
 }
  }
