@@ -1032,6 +1032,22 @@ text-align: left;
     min-width: 90%;
   }
 
+  .section {
+    padding: 2.399rem 0.875rem 0 0.875rem;
+  }
+  .section-light {
+    padding: 2.399rem 0.875rem 0 0.875rem;
+  }
+  .section-production {
+    padding: 2.399rem 0.875rem 0 0.875rem;
+  }
+  .section-trademark {
+    padding: 2.399rem 0.875rem 0 0.875rem;
+  }
+  .clients .founder {
+    padding: 2.399rem 0.875rem 0 0.875rem;
+  }
+
   .container-white {
     min-width: 90%;
   }
