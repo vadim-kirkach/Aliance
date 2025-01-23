@@ -51,7 +51,7 @@ html {
   transition: background-color 0.2s, height 0.2s;
 }
 
-.logo {
+.logo-dark {
   display: none;
 }
 
@@ -63,6 +63,17 @@ html {
 .navbar-light {
   background: #fff;
   color: rgb(41, 45, 51);
+}
+
+.navbar-light .logo-light {
+  display: none;
+}
+
+.navbar-light .logo-dark {
+  display: block;
+}
+
+.navbar-scroll {
   height: 4.625rem;
 }
 

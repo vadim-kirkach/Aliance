@@ -3,17 +3,16 @@ const logoLight = document.querySelector(".logo-light");
 const logo = document.querySelector(".logo");
 const mMenuToggle = document.querySelector(".mobile-menu-toggle");
 const menu = document.querySelector(".mobile-menu");
+const isFront = document.body.classList.contains("front-page");
+
 
 const lightModeOn = (event) => {
-  navbar.classList.add("navbar-light");
-  logo.style.display = "block";
-  logoLight.style.display = "none";
-};
-const lightModeOff = (event) => {
-  navbar.classList.remove("navbar-light");
-  logo.style.display = "none";
-  logoLight.style.display = "block";
-};
+   navbar.classList.add("navbar-light");
+ };
+ const lightModeOff = (event) => {
+   navbar.classList.remove("navbar-light");
+ };
+
 //прошлый способ замены логотипа
 /*const lightModeOn = (event) => {
   navbar.classList.add("navbar-light");
@@ -23,6 +22,10 @@ const lightModeOff = (event) => {
   navbar.classList.remove("navbar-light");
   logo.href.baseVal = "img/sprite.svg#logo-light";
 };*/
+
+const changeNavHeight = (height) => {
+  navbar.style.height = height;
+}
 
 const openMenu = (event) => { // функция открывания меню
   menu.classList.add("is-open"); // вешает класс из-опен
@@ -39,7 +42,10 @@ const closeMenu = (event) => { // функция закрывания меню
 };
 
 window.addEventListener("scroll", () => {
-  this.scrollY > 1 ? lightModeOn() : lightModeOff();
+  this.scrollY > 1 ? changeNavHeight("4.5rem") : changeNavHeight("5.875rem");
+  if (isFront) {
+    this.scrollY > 1 ? lightModeOn() : lightModeOff();
+  }
 });
 
 mMenuToggle.addEventListener("click", (event) => {
