@@ -1074,6 +1074,60 @@ margin-bottom: 1.875rem;
   display: block;
 }
 
+.header-grey {
+  margin-top: 5.875rem;
+  background: rgb(240, 242, 245);
+  height: 16.875rem;
+  padding-top: 3.125rem;
+}
+
+.header-grey-title {
+color: rgb(41, 45, 51);
+font-family:'Bebas Neue Book';
+font-size: 5rem;
+font-weight: 400;
+line-height: 120%;
+margin-top: 2rem;
+margin-bottom: 1.25rem;
+}
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  margin: 0; 
+  padding: 0; /* Убираем отступы */
+ }
+
+ .breadcrumbs li {
+  list-style: none;
+  display: flex;
+  align-items: left;
+
+
+ }
+ .breadcrumbs li::after {
+  content: '-'; /* Разделитель */
+  margin-left: 10px; /* Отступ слева */
+  margin-right: 10px; /* Отступ справа */
+  color: rgb(130, 138, 153);
+  font-family: Noto Sans;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 160%; 
+ }
+ .breadcrumbs li:last-child::after {
+  content: ''; /* Убираем разделитель для первого пункта */
+ }
+.breadcrumbs-link {
+  text-decoration: none;
+  color: rgb(41, 45, 51);
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 160%;
+  display: block;
+}
+
+
  @media (max-width: 1700px) {
   html {
     font-size: 14px;
