@@ -175,13 +175,17 @@ font-size: 1.125rem;
 font-weight: 600;
 line-height: 160%;
 color: #ffffff;
-background: rgb(58, 113, 209);
-
+background-color: rgb(58, 113, 209);
 padding: 1.5625rem 3.9375rem;
 border: none;
 display: inline-block;
 cursor: pointer;
+transition: background-color 0.2s;
 }
+
+.button:hover {
+background-color: rgb(92, 142, 230);
+} 
 
 .navbar-button {
   flex-shrink: 0;
