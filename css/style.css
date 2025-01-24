@@ -1438,10 +1438,49 @@ text-align: left;
   flex-direction: column;
 }
 
+.card {
+  flex-basis: 50%;
+ }
+
 .clients-wrapper {
   flex-direction: column;
 }
- }
+
+.header-image {
+  height: 989px;
+  margin-bottom: 68px;
+}
+.section-light {
+  margin-bottom: 6.125rem;
+  }
+
+.section-title {
+  font-size: 3rem;
+}
+.steps-num {
+  font-size: 4rem;
+}
+.steps-title {
+  margin-top: 0.713rem;
+  margin-bottom: 1.125rem;
+}
+.card {
+  flex-basis: 100%;
+}
+
+.section-production {
+  margin-bottom: 3.8125rem;
+  }
+  .trademark-card-logo {
+    width: 110px;
+  }
+  .founder {
+    margin-bottom: 60px;
+  }
+
+}
+
+
 
  @media (max-width: 768px) {
   .container {
@@ -1461,9 +1500,7 @@ text-align: left;
   .header-features {
     margin-top: 3.8rem;
   }
-  .card {
-    flex-basis: 100%;
-   }
+  
   .founder-photo {
     position: relative;
     width: 100%;
@@ -1487,6 +1524,9 @@ text-align: left;
   .footer-menu-wrapper:last-child {
     margin-left: 0rem;
   }
+  .card {
+    flex-basis: 50%;
+   }
  }
 
  @media (max-width: 576px) {
@@ -1577,4 +1617,13 @@ text-align: left;
 .footer-author {
   margin-left: 15px;
 }
+
+.footer-phone {
+  font-size: 2rem;
+}
+
+.card {
+  flex-basis: 100%;
+ }
+
 }
