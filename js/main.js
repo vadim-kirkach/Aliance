@@ -198,3 +198,49 @@ document.addEventListener('keydown', (e) => {
     closeModal(); 
   }
 });*/
+
+const forms = document.querySelectorAll("form"); // собираем все формы
+forms.forEach((form) => {
+  const validation = new JustValidate(form, {
+    errorFieldCssClass: "is-invalid",
+  });
+  validation 
+  .addField("[name=username]", [
+    {
+      rule: 'required',
+      errorMessage: "Укажите имя"
+    },
+    {
+      rule: 'maxLength',
+      value: 30,
+      errorMessage: "Максимально 30 символов"
+    },
+  ])
+  .addField("[name=userphone]", [
+    {
+      rule: 'required',
+      errorMessage: "Укажите телефон"
+    },
+    {
+      rule: 'required',
+    },
+  ])
+  .onSuccess((event) => {
+    const thisForm = event.target; 
+    const formData = new FormData(thisForm);
+    const ajaxSend = (formData) => {
+      fetch(thisForm.getAttribute("action"), {
+       method: thisForm.getAttribute("method"),
+       body: formData,
+    }).then((response) => {
+     if (response.ok) {
+      thisForm.reset();
+      alert("Форма отправлена!")
+     } else {
+      alert("Ошибка. Текст ошибки: ".response.statusText);
+     }
+    });
+    };
+    ajaxSend(formData);
+  });
+});
