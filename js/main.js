@@ -159,6 +159,30 @@ document.addEventListener('keyup', (event) => {
   }
 });
 
+//модальное для спасибо
+const modalSuccess = document.querySelector(".modal-success");
+const modalDialogSuccess = document.querySelector(".modal-dialog-success");
+
+
+document.addEventListener("click", (event) => {
+  if (
+    event.target.dataset.toggle == "modalTh" || 
+    event.target.parentNode.dataset.toggle == "modalTh" ||
+    (!event.composedPath().includes(modalDialogSuccess) && 
+    modalSuccess.classList.contains("is-open"))
+  ) {
+    event.preventDefault();
+    
+    modalSuccess.classList.toggle("is-open");
+  }
+});
+
+document.addEventListener('keyup', (event) => {
+  if (event.key == "Escape" && modalSuccess.classList.contains("is-open")) {
+    modalSuccess.classList.toggle("is-open"); 
+  }
+});
+
 
 
 //не очень правильный способ но работает
@@ -234,8 +258,9 @@ forms.forEach((form) => {
        body: formData,
     }).then((response) => {
      if (response.ok) {
-      thisForm.reset();
-      alert("Форма отправлена!")
+      thisForm.reset(),
+      modalSuccess.classList.add('is-open'),
+      modalDialogSuccess.classList.add('is-open');
      } else {
       alert("Ошибка. Текст ошибки: ".response.statusText);
      }

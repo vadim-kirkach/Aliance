@@ -1091,6 +1091,78 @@ margin-bottom: 1.875rem;
   width: 100%;
   display: block;
 }
+/* модальное для спасибо*/
+.modal-success {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(40, 45, 51, 0.5);
+  z-index: 10;
+  display: flex;
+}
+
+.modal-success.is-open {
+  transform: translateX(0);
+  visibility: visible;
+  opacity: 1;
+}
+
+.modal-success.is-open .modal-dialog-success {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.modal-dialog-success {
+  background-color: #fff;
+  margin: auto;
+  max-width: 28.75rem;
+  padding: 2.5rem 3.125rem;
+  position: relative;
+  transform: translateY(-20%);
+  opacity: 0;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.modal-success-close {
+  display: block;
+  position: absolute;
+  top: 2.5rem;
+  right: 2.5rem;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ebebf0;
+}
+
+.modal-success-title {
+  font-family:'Bebas Neue Book';
+  color: rgb(41, 45, 51);
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 120%;
+  margin-top: 0;
+  margin-bottom: 20px;
+  }
+  
+  .modal-success-text {
+  color: rgb(130, 138, 153);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: 1.875rem;
+  }
+
+  .modal-success-img {
+    max-width: 100%;
+    right: 0;
+  }
 
 .header-grey {
   margin-top: 5.875rem;
@@ -1100,9 +1172,6 @@ margin-bottom: 1.875rem;
   position: relative;
 }
 
-.header-grey-wrapper {
-  
-}
 .header-grey-img {
   position: absolute;
   bottom: 0;
