@@ -161,10 +161,10 @@
     </div>
   </footer>
 
-  <div class="modal">
+  <div class="modal" id="feedback-modal">
     <div class="modal-dialog">
       <h2 class="modal-title">Есть вопросы?</h2>
-      <a href="#" class="modal-close" data-toggle="modal">
+      <a href="#" class="modal-close" data-toggle="modal" data-target="#feedback-modal">
         <svg class="close-icon" width="18px" height="18px">
           <use href="img/sprite.svg#close"></use>
         </svg>
@@ -196,16 +196,16 @@
     </div>
   </div>
 
-  <div class="modal-success">
-    <div class="modal-dialog-success">
-      <a href="#" class="modal-success-close" data-toggle="modalTh">
+  <div class="modal" id="alert-modal">
+    <div class="modal-dialog">
+      <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
         <svg class="close-icon" width="18px" height="18px">
           <use href="img/sprite.svg#close"></use>
         </svg>
       </a>
       <img src="/img/thanks_illu.png" alt="" class="modal-success-img">
-      <h2 class="modal-success-title">Спасибо за заявку!</h2>
-      <p class="modal-success-text">Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
+      <h2 class="modal-title">Спасибо за заявку!</h2>
+      <p class="modal-text">Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
       </p>
       <button class="button modal-form-button" type="submit">Вернуться на главную</button>
     </div>
