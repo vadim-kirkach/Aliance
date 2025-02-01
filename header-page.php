@@ -113,11 +113,11 @@
       </li>
 
       <li class="header-nav-item">
-        <a href="#" class="header-nav-link">Новости</a>
+        <a href="./blog.php" class="header-nav-link">Новости</a>
       </li>
 
       <li class="header-nav-item">
-        <a href="#" class="header-nav-link">Контакты</a>
+        <a href="./contacts.php" class="header-nav-link">Контакты</a>
       </li>
     </ul>
 
