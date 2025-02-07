@@ -234,17 +234,32 @@
   <div class="swiper-wrapper">
     <!-- Slides -->
     <a href="#" class="swiper-slide blog-card">
-      <img src="./img/blog/blog1.png" alt="" class="blog-card-image">
+        <picture class="blog-card-image">
+              <source type="image/webp" srcset="/img/blog/blog1.webp">
+              <source type="image/png" srcset="/img/blog/blog1.png">
+              <img src="/img/blog/blog1.png" alt="">
+        </picture>
+      
       <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
       <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
     </a>
     <a href="#" class="swiper-slide blog-card">
-      <img src="./img/blog/blog2.png" alt="" class="blog-card-image">
+        <picture class="blog-card-image">
+              <source type="image/webp" srcset="/img/blog/blog2.webp">
+              <source type="image/png" srcset="/img/blog/blog2.png">
+              <img src="/img/blog/blog2.png" alt="">
+        </picture>
+      
       <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
       <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
     </a>
     <a href="#" class="swiper-slide blog-card">
-      <img src="./img/blog/blog1.png" alt="" class="blog-card-image">
+        <picture class="blog-card-image">
+              <source type="image/webp" srcset="/img/blog/blog1.webp">
+              <source type="image/png" srcset="/img/blog/blog1.png">
+              <img src="/img/blog/blog1.png" alt="">
+        </picture>
+      
       <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
       <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
     </a>
