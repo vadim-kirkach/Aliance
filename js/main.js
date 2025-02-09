@@ -138,6 +138,62 @@ const swiperBlog = new Swiper(".blog-slider", {
   } 
 });
 
+const swiperBlack = new Swiper('.black-slider', {
+  speed: 400,
+  slidesPerView: 1,
+  navigation: {
+    nextEl: ".about-button-next",
+    prevEl: ".about-button-prev",
+  },
+    
+  breakpoints: {
+    // when window width is >= 576px
+    576: {
+      slidesPerView: 2,
+    },
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 3,
+    },
+    // when window width is >= 1024px
+    1024: {
+      slidesPerView: 4,
+    },
+    // when window width is >= 1200px
+    1200: {
+      slidesPerView: 5,
+    },
+  } 
+});
+
+const swiperScience = new Swiper('.science-slider', {
+  speed: 400,
+slidesPerView: 2,
+  navigation: {
+    nextEl: ".science-button-next",
+    prevEl: ".science-button-prev",
+  },
+    
+  breakpoints: {
+    // when window width is >= 576px
+    576: {
+      slidesPerView: 1,
+    },
+    // when window width is >= 768px
+    768: {
+      slidesPerView: 1,
+    },
+    // when window width is >= 1024px
+    1024: {
+      slidesPerView: 2,
+    },
+    // when window width is >= 1200px
+    1200: {
+      slidesPerView: 2,
+    },
+  } 
+});
+
 let currentModal; // текущее модальное окно
 let modalDialog; // белое диалоговое окно
 let alertModal = document.querySelector("#alert-modal"); // окно с предупреждением
