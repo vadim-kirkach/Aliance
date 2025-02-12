@@ -490,7 +490,7 @@ margin-bottom: 24.625rem;
   bottom: 0;
   right: 0;
   z-index: 0;
-  width: 90%;
+  
 }
 
 .cards-mark {
@@ -1377,6 +1377,12 @@ line-height: 120%;
   html {
     font-size: 14px;
   }
+  .founder-photo {
+    width: 40%;
+    height: 70%;
+    display: flex;
+    padding-left: 10.8125rem;
+  }
  }
   /*
  @media (max-width: 1400px) {
@@ -1432,6 +1438,12 @@ line-height: 120%;
   .cta-image {
     width: 39rem;
   }
+  .founder-photo {
+    width: 30%;
+    height: 50%;
+    display: flex;
+    padding-left: 10.8125rem;
+  }
 
  }
 
@@ -1473,6 +1485,13 @@ line-height: 120%;
  .trademark-card-logo {
   width: 100%;
  }
+ .founder-photo {
+  width: 25%;
+  height: 39%;
+  display: flex;
+  padding-left: 5.8125rem;
+ }
+
 .founder-content{
   max-width: 35rem;
 }
@@ -1691,9 +1710,13 @@ text-align: left;
   .founder {
     margin-bottom: 60px;
   }
-
+  .founder-photo {
+    width: 25%;
+    height: 39%;
+    display: flex;
+    padding-left: 5.8125rem;
 }
-
+}
 
 
  @media (max-width: 768px) {
@@ -1716,8 +1739,10 @@ text-align: left;
   }
   
   .founder-photo {
-    position: relative;
-    width: 100%;
+   
+    display: flex;
+    width: 25%;
+    height: 39%;
     margin-bottom: 3.125rem;
   }
   .input-group-wrapper {

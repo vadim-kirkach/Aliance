@@ -125,11 +125,11 @@ const swiperBlog = new Swiper(".blog-slider", {
     },
     // when window width is >= 768px
     768: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
     // when window width is >= 1024px
     1024: {
-      slidesPerView: 2,
+      slidesPerView: 1,
     },
     // when window width is >= 1200px
     1200: {
