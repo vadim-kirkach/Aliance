@@ -238,7 +238,7 @@
         <picture class="blog-card-image">
               <source type="image/webp" srcset="/img/blog/blog1.webp">
               <source type="image/png" srcset="/img/blog/blog1.png">
-              <img src="/img/blog/blog1.png" alt="">
+              <img class="blog-card-image" src="/img/blog/blog1.png" alt="">
         </picture>
       
       <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
@@ -248,7 +248,7 @@
         <picture class="blog-card-image">
               <source type="image/webp" srcset="/img/blog/blog2.webp">
               <source type="image/png" srcset="/img/blog/blog2.png">
-              <img src="/img/blog/blog2.png" alt="">
+              <img class="blog-card-image" src="/img/blog/blog2.png" alt="">
         </picture>
       
       <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
@@ -258,7 +258,7 @@
         <picture class="blog-card-image">
               <source type="image/webp" srcset="/img/blog/blog1.webp">
               <source type="image/png" srcset="/img/blog/blog1.png">
-              <img src="/img/blog/blog1.png" alt="">
+              <img class="blog-card-image" src="/img/blog/blog1.png" alt="">
         </picture>
       
       <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>

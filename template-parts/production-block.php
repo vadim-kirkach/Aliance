@@ -17,7 +17,7 @@
             <picture class="card-image">
               <source type="image/webp" srcset="/img/автохим.webp">
               <source type="image/png" srcset="/img/автохим.png">
-              <img src="/img/автохим.png" alt="">
+              <img class="card-image" src="/img/автохим.png" alt="">
             </picture>
           
         </a>
@@ -30,7 +30,7 @@
             <picture class="card-image">
               <source type="image/webp" srcset="/img/бытхим.webp">
               <source type="image/png" srcset="/img/бытхим.png">
-              <img src="/img/бытхим.png" alt="">
+              <img class="card-image" src="/img/бытхим.png" alt="">
             </picture>
           
         </a>
@@ -43,7 +43,7 @@
           <picture class="card-image">
               <source type="image/webp" srcset="/img/dezinfect.webp">
               <source type="image/png" srcset="/img/dezinfect.png">
-              <img src="/img/dezinfect.png" alt="">
+              <img class="card-image" src="/img/dezinfect.png" alt="">
           </picture>
         </a>
 
@@ -55,7 +55,7 @@
           <picture class="card-image">
               <source type="image/webp" srcset="/img/автохим.webp">
               <source type="image/png" srcset="/img/автохим.png">
-              <img src="/img/автохим.png" alt="">
+              <img class="card-image" src="/img/автохим.png" alt="">
           </picture>
         </a>
 
@@ -67,7 +67,7 @@
           <picture class="card-image">
               <source type="image/webp" srcset="/img/бытхим.webp">
               <source type="image/png" srcset="/img/бытхим.png">
-              <img src="/img/бытхим.png" alt="">
+              <img class="card-image" src="/img/бытхим.png" alt="">
           </picture>
         </a>
 
@@ -79,7 +79,7 @@
           <picture class="card-image">
               <source type="image/webp" srcset="/img/dezinfect.webp">
               <source type="image/png" srcset="/img/dezinfect.png">
-              <img src="/img/dezinfect.png" alt="">
+              <img class="card-image" src="/img/dezinfect.png" alt="">
           </picture>
           
         </a>

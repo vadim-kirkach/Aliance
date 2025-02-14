@@ -450,8 +450,8 @@ background-color: rgb(92, 142, 230);
   text-decoration: none;
   flex-basis: 33%;
   position: relative;
-   border: 1px solid #ebebf0;
-   transition: border 0,2s;
+  border: 1px solid #ebebf0;
+  transition: border 0,2s;
  }
 
  .card:hover .card-title {
@@ -485,12 +485,12 @@ margin-bottom: 24.625rem;
 }
 
 .card-image {
-  min-width: 100%;
+  width: 100%;
   position: absolute;
   bottom: 0;
   right: 0;
   z-index: 0;
-  
+
 }
 
 .cards-mark {
@@ -608,6 +608,21 @@ margin-top: 10px;
 .trademark-card:hover .trademark-card-title {
   color: #5C8EE6;
 }
+/*
+.no-webp .founder-picture {
+  background-image: url("../img/founder.png");
+}
+
+.founder-picture {
+  background-image: url("../img/founder.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: relative;
+  height: 295px;
+  width: 375px;
+}
+*/
 
 .founder {
   min-height: 41.25rem;
@@ -619,7 +634,7 @@ margin-top: 10px;
 .founder-photo {
   position: absolute;
   left: 0;
-  width: 40%;
+  width: 70%;
   top: 0;
   height: 100%;
   object-fit: cover;
@@ -1422,7 +1437,7 @@ line-height: 120%;
   .header-logo {
     padding: 2rem;
   }
-  logo-svg {
+  .logo-svg {
     max-width: 6rem;
   }
   .header-nav {
@@ -1697,9 +1712,7 @@ text-align: left;
   margin-top: 0.713rem;
   margin-bottom: 1.125rem;
 }
-.card {
-  flex-basis: 100%;
-}
+
 
 .section-production {
   margin-bottom: 3.8125rem;
@@ -1711,11 +1724,8 @@ text-align: left;
     margin-bottom: 60px;
   }
   .founder-photo {
-    width: 25%;
-    height: 39%;
-    display: flex;
-    padding-left: 5.8125rem;
-}
+  display: none;
+  }
 }
 
 
@@ -1737,14 +1747,11 @@ text-align: left;
   .header-features {
     margin-top: 3.8rem;
   }
-  
-  .founder-photo {
-   
-    display: flex;
-    width: 25%;
-    height: 39%;
-    margin-bottom: 3.125rem;
+
+  .card {
+    flex-basis: 100%;
   }
+  
   .input-group-wrapper {
     flex-direction: column;
     margin-left: .9375rem;
@@ -1763,9 +1770,7 @@ text-align: left;
   .footer-menu-wrapper:last-child {
     margin-left: 0rem;
   }
-  .card {
-    flex-basis: 50%;
-   }
+
  }
 
  @media (max-width: 576px) {
