@@ -730,6 +730,10 @@ filter: grayscale(95%);
   padding-top: 11.399rem;
 }
 
+.title-blog {
+  margin-bottom: 3.5rem;
+}
+
 .blog-card {
   display: flex;
   flex-direction: column;
@@ -919,7 +923,7 @@ margin: 0px;
 .section-cta {
   position: relative;
   padding-top: 6.25rem;
-  margin-top: 13.375rem;
+  margin-top: 12.12rem;
   padding-bottom: 6.25rem;
 }
 

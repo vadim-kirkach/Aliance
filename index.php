@@ -227,7 +227,7 @@
    <section class="section blog">
     <div class="container">
       <div class="seporator"></div>
-      <h2 class="section-title">Блог экспертов в области производства</h2>
+      <h2 class="section-title title-blog">Блог экспертов в области производства</h2>
       
       <!-- Slider main container -->
 <div class="swiper blog-slider">
