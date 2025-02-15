@@ -18,7 +18,7 @@ html {
   }
 
 .body {
-  font-family: "Noto Sans", serif;
+  font-family: 'Noto Sans', serif;
 }
 
 .mobile-menu {
@@ -153,6 +153,7 @@ margin-right: 5%;
   display: flex;
   align-items: center;
   text-decoration: none;
+  font-family: 'Noto Sans';
   font-size: 1.125rem;
   /*margin-right: 3.125rem;*/
   color: inherit;
@@ -179,6 +180,7 @@ margin-right: 5%;
   display: flex;
   align-items: center;
   flex-shrink: 0;
+  font-family: 'Noto Sans';
   gap: .625rem;
   margin-right: 1.5625rem;
 }
@@ -197,6 +199,7 @@ color: #ffffff;
 background-color: rgb(58, 113, 209);
 padding: 1.5625rem 3.9375rem;
 border: none;
+font-family: 'Noto Sans';
 display: inline-block;
 cursor: pointer;
 transition: background-color 0.2s;
@@ -247,6 +250,7 @@ background-color: rgb(92, 142, 230);
   font-style: normal;
   font-size: 1.125rem;
   font-weight: 400;
+  font-family: 'Noto Sans';
   line-height: 143%;
   margin-bottom: 3rem;
   margin-top: 2.5rem;
@@ -298,6 +302,7 @@ background-color: rgb(92, 142, 230);
   font-weight: 400;
   line-height: 160%;
   margin-bottom: 0;
+  font-family: 'Noto Sans';
  }
 
  .section {
@@ -904,7 +909,7 @@ margin: 0px;
 
  .sciense-text {
   color: rgb(130, 138, 153);
-  font-family: Noto Sans;
+  font-family: 'Noto Sans';
   font-size: 1rem;
   font-weight: 400;
   line-height: 160%;
@@ -946,7 +951,7 @@ margin: 0px;
 color: rgb(130, 138, 153);
 font-size: 16px;
 font-weight: 400;
-font-family: Noto Sans;
+font-family: 'Noto Sans';
 line-height: 160%;
 margin-top: 1.375rem;
 margin-bottom: 2.5rem;
@@ -988,7 +993,7 @@ gap: 1.875rem;
   top: 1.2rem;
   left: 1.975rem;
   color: rgb(130, 138, 153);
-  font-family: Noto Sans;
+  font-family: 'Noto Sans';
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
