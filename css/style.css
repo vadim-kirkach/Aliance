@@ -470,6 +470,7 @@ background-color: rgb(92, 142, 230);
 color: rgb(41, 45, 51);
 font-size: 1.75rem;
 font-weight: 400;
+font-family: Noto Sans;
 line-height: 140%;
 margin-top: 0;
 margin-bottom: .625rem;
@@ -479,9 +480,10 @@ transition: color 0,2s;
 .card-text {
 color: rgb(130, 138, 153);
 font-size: 1rem;
+font-family: Noto Sans;
 font-weight: 400;
 line-height: 160%;
-margin-bottom: 24.625rem;
+margin-bottom: 22.625rem;
 }
 
 .card-image {
@@ -526,6 +528,7 @@ margin-bottom: 24.625rem;
  .card-mark-title {
   color: rgb(41, 45, 51);
   font-size: 1.75rem;
+  font-family: Noto Sans;
   font-weight: 400;
   text-align: left;
   line-height: 140%;
@@ -549,7 +552,7 @@ margin-bottom: 24.625rem;
  }
 
  .section-trademark {
- padding: 8.399rem 5.875rem 0 5.875rem;
+ padding: 9.1rem 5.875rem 0 5.875rem;
  }
 
 .trademark-cards {
@@ -582,6 +585,7 @@ margin-bottom: 24.625rem;
 .trademark-card-title {
   color: rgb(41, 45, 51);
  font-size: 1.75rem;
+ font-family: Noto Sans;
  font-weight: 400;
  line-height: 160%;
  margin: 0;
@@ -592,6 +596,7 @@ margin-bottom: 24.625rem;
 color: rgb(130, 138, 153);
 font-size: 1rem;
 font-weight: 400;
+font-family: Noto Sans;
 line-height: 160%;
 grid-area: text;
 margin-top: 10px;
@@ -653,6 +658,7 @@ margin-top: 10px;
 .founder-text {
   color: rgb(130, 138, 153);
   font-size: 18px;
+  font-family: Noto Sans;
   font-weight: 400;
   line-height: 160%;
   text-align: left;
@@ -685,6 +691,7 @@ margin-top: 10px;
   gap: 1.25rem;
   color: rgb(41, 45, 51);
   font-size: 18px;
+  font-family: Noto Sans;
   font-weight: 400;
   line-height: 160%;
   margin-bottom: 1.25rem;
@@ -760,6 +767,7 @@ filter: grayscale(95%);
 color: rgb(255, 255, 255);
 font-size: 1.75rem;
 font-weight: 400;
+font-family: Noto Sans;
 line-height: 160%;
 letter-spacing: 0%;
 margin-bottom: 10px;
@@ -770,6 +778,7 @@ margin-top: 0;
 color: rgb(255, 255, 255);
 font-size: 1rem;
 font-weight: 400;
+font-family: Noto Sans;
 line-height: 160%;
 margin: 0px;
 }
@@ -862,6 +871,7 @@ margin: 0px;
   color: rgb(130, 138, 153);
   font-size: 18px;
   font-weight: 400;
+  font-family: Noto Sans;
   line-height: 160%;
   text-align: left;
   margin: 0;
@@ -932,6 +942,7 @@ margin: 0px;
 color: rgb(130, 138, 153);
 font-size: 16px;
 font-weight: 400;
+font-family: Noto Sans;
 line-height: 160%;
 margin-top: 1.375rem;
 margin-bottom: 2.5rem;
@@ -973,6 +984,7 @@ gap: 1.875rem;
   top: 1.2rem;
   left: 1.975rem;
   color: rgb(130, 138, 153);
+  font-family: Noto Sans;
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
@@ -1035,6 +1047,7 @@ gap: 1.875rem;
   margin: 0;
   max-width: 23.75rem;
   color: rgb(130, 138, 153);
+  font-family: Noto Sans;
 font-size: .75rem;
 font-weight: 400;
 line-height: 160%;
@@ -1057,6 +1070,7 @@ line-height: 160%;
   display: flex;
   align-items: center;
   text-decoration: none;
+  font-family: Noto Sans;
   font-style: normal;
   color: rgb(41, 45, 51);
   gap: 10px;
@@ -1065,6 +1079,7 @@ line-height: 160%;
  .footer-info-address,
  .footer-info-email {
   font-style: inherit;
+  font-family: Noto Sans;
   text-decoration: inherit;
   color: inherit;
  }
@@ -1072,6 +1087,7 @@ line-height: 160%;
  .footer-phone {
   color: rgb(41, 45, 51);
 font-size: 2rem;
+font-family: Noto Sans;
 font-weight: 600;
 line-height: 160%;
 text-decoration-line: underline;
@@ -1079,6 +1095,7 @@ text-decoration-line: underline;
 
 .footer-social-link {
   text-decoration: none;
+  font-family: Noto Sans;
 }
 
 
@@ -1091,6 +1108,7 @@ text-decoration-line: underline;
 
 .footer-menu-title {
   margin-top: 0;
+  font-family: Noto Sans;
   margin-bottom: 1.875rem;
 color: rgb(41, 45, 51);
 font-size: 1rem;
@@ -1100,12 +1118,14 @@ line-height: 160%;
 
 .footer-menu-list {
   margin: 0;
+  font-family: Noto Sans;
   padding-left: 1.25rem;
   list-style: none;
 }
 .footer-menu-column-2 {
   columns: 20rem auto;
   min-width: 45.3rem;
+  font-family: Noto Sans;
 }
 
 .footer-menu-link {
@@ -1113,6 +1133,7 @@ line-height: 160%;
   color: #828a99;
   font-size: 1rem;
 font-weight: 400;
+font-family: Noto Sans;
 line-height: 160%;
 margin-bottom: .9375rem;
 display: block;
@@ -1123,6 +1144,7 @@ display: block;
 font-size: 16px;
 font-weight: 600;
 line-height: 160%;
+font-family: Noto Sans;
 margin-bottom: 1.875rem;
 }
 
@@ -1149,6 +1171,7 @@ margin-bottom: 1.875rem;
 .footer-policy {
   color: rgb(130, 138, 153);
 font-size: .75rem;
+font-family: Noto Sans;
 font-weight: 400;
 line-height: 160%;
 text-decoration: none;
@@ -1208,6 +1231,7 @@ font-family:'Bebas Neue Book';
 color: rgb(41, 45, 51);
 font-size: 3rem;
 font-weight: 400;
+font-family: Noto Sans;
 line-height: 120%;
 margin-top: 0;
 margin-bottom: 20px;
@@ -1217,6 +1241,7 @@ margin-bottom: 20px;
 color: rgb(130, 138, 153);
 font-size: 1rem;
 font-weight: 400;
+font-family: Noto Sans;
 line-height: 160%;
 margin-bottom: 1.875rem;
 }
