@@ -145,7 +145,7 @@ html {
 }
 
 .header-nav-item:not(:last-child) {
-margin-right: 5%;
+margin-right: 4.7%;
 }
 
 .header-nav-link {
@@ -154,7 +154,7 @@ margin-right: 5%;
   align-items: center;
   text-decoration: none;
   font-family: 'Noto Sans';
-  font-size: 1.125rem;
+  font-size: 1rem;
   /*margin-right: 3.125rem;*/
   color: inherit;
   letter-spacing: .0056rem;
@@ -188,11 +188,11 @@ margin-right: 5%;
 .header-phone-link {
   text-decoration: none;
   font-size: 1rem;
-  padding: 1.5625rem 1.25rem 1.5625rem;
+  padding: 1.5625rem 0.75rem 1.5625rem;
 }
 
 .button {
-font-size: 1.125rem;
+font-size: 1rem;
 font-weight: 600;
 line-height: 160%;
 color: #ffffff;
@@ -212,15 +212,11 @@ background-color: rgb(92, 142, 230);
 .navbar-button {
   flex-shrink: 0;
   height: 100%;
-  padding: 1.5625rem 2rem;
+  padding: 1.5625rem 2.2rem;
 }
 
 .navbar-button .button-icon {
   display: none;
-}
-
-.header-button {
-  height: 100%;
 }
 
 .seporator {
@@ -252,7 +248,7 @@ background-color: rgb(92, 142, 230);
   font-weight: 400;
   font-family: 'Noto Sans';
   line-height: 143%;
-  margin-bottom: 3rem;
+  margin-bottom: 1.4rem;
   margin-top: 2.5rem;
   letter-spacing: 0.4px;
  }
@@ -635,19 +631,18 @@ margin-top: 10px;
 */
 
 .founder {
-  min-height: 41.25rem;
+  
   position: relative;
-  padding: 0 5.875rem;
-  margin-top: 12.375rem;
+  margin-top: 10rem;
+  /*padding: 0 5.875rem;
+  margin-top: 12.375rem;*/
 }
 
 .founder-photo {
   position: absolute;
   left: 0;
-  width: 70%;
+  width: 67%;
   top: 0;
-  height: 100%;
-  object-fit: cover;
 }
 
 .founder-content {
@@ -662,8 +657,8 @@ margin-top: 10px;
 
 .founder-text {
   color: rgb(130, 138, 153);
-  font-size: 18px;
-  font-family: Noto Sans;
+  font-size: 16px;
+  font-family: 'Noto Sans';
   font-weight: 400;
   line-height: 160%;
   text-align: left;
@@ -671,7 +666,7 @@ margin-top: 10px;
 }
 
 .clients {
-  padding-top: 6.199rem;
+  margin-top: 13.199rem;
 }
 .clients-wrapper {
   display: flex;
@@ -1100,6 +1095,8 @@ font-family: Noto Sans;
 font-weight: 600;
 line-height: 160%;
 text-decoration-line: underline;
+margin-left: 6.3125rem;
+margin-right: 2.125rem;
  }
 
 .footer-social-link {
@@ -1426,12 +1423,7 @@ line-height: 120%;
   html {
     font-size: 14px;
   }
-  .founder-photo {
-    width: 40%;
-    height: 70%;
-    display: flex;
-    padding-left: 10.8125rem;
-  }
+  
  }
   /*
  @media (max-width: 1400px) {
@@ -1487,12 +1479,7 @@ line-height: 120%;
   .cta-image {
     width: 39rem;
   }
-  .founder-photo {
-    width: 30%;
-    height: 50%;
-    display: flex;
-    padding-left: 10.8125rem;
-  }
+ 
 
  }
 
@@ -1526,7 +1513,7 @@ line-height: 120%;
  }
 
  .card {
-  flex-basis: 50%;
+  flex-basis: 33%;
  }
  .trademark-card {
   grid-template-columns: auto auto;
@@ -1534,12 +1521,7 @@ line-height: 120%;
  .trademark-card-logo {
   width: 100%;
  }
- .founder-photo {
-  width: 25%;
-  height: 39%;
-  display: flex;
-  padding-left: 5.8125rem;
- }
+ 
 
 .founder-content{
   max-width: 35rem;
@@ -1721,8 +1703,8 @@ text-align: left;
 }
 
 .card {
-  flex-basis: 50%;
- }
+  flex-basis: 33%;
+}
 
 .clients-wrapper {
   flex-direction: column;
@@ -1757,9 +1739,7 @@ text-align: left;
   .founder {
     margin-bottom: 60px;
   }
-  .founder-photo {
-  display: none;
-  }
+  
 }
 
 
@@ -1783,18 +1763,23 @@ text-align: left;
   }
 
   .card {
-    flex-basis: 100%;
+    flex-basis: 50%;
+  }
+
+
+  .founder-photo {
+    position: relative;
+    width: 100%;
+    margin-bottom: 3.125rem;
   }
   
   .input-group-wrapper {
     flex-direction: column;
-    margin-left: .9375rem;
-    margin-right: .9375rem;
+    
   }
   .cta-form-footer {
     flex-direction: column;
-    margin-left: .9375rem;
-    margin-right: .9375rem;
+   
   }
 
   .footer-bottom {
@@ -1824,10 +1809,13 @@ text-align: left;
   .section-trademark {
     padding: 2.399rem 0.875rem 0 0.875rem;
   }
-  .clients .founder {
+  .clients  {
     padding: 2.399rem 0.875rem 0 0.875rem;
   }
-
+  .founder {
+    padding-right: 0;
+    padding-left: 0;
+  }
   .container-white {
     min-width: 90%;
   }
@@ -1871,6 +1859,11 @@ text-align: left;
 .clients-logo-item {
   flex-basis: 50%;
 }
+
+.cta-form-wrapper {
+  margin-left: .9375rem;
+  margin-right: .9375rem;
+} 
 
 .cta-form-button {
   width: 100%;
