@@ -181,14 +181,23 @@ initialSlide: 2,
   breakpoints: {
     // when window width is >= 576px
     576: {
+      centeredSlides: false,
+      initialSlide: false,
+      loop: false,
       slidesPerView: 1,
     },
     // when window width is >= 768px
     768: {
+      centeredSlides: false,
+      initialSlide: false,
+      loop: false,
       slidesPerView: 1,
     },
     // when window width is >= 1024px
     1024: {
+      centeredSlides: false,
+      initialSlide: false,
+      loop: false,
       slidesPerView: 2,
     },
     // when window width is >= 1200px
