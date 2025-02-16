@@ -139,6 +139,12 @@
   <!-- /.navbar -->
 
   <section class="section header-grey">
+  
+  <?php if ($page_title == 'Автомобильная химия') {
+     include_once('./template-parts/header-grey-img.php');
+  }
+  ?>
+
     <div class="container">
       <div class="header-grey-wrapper">
         <div class="seporator"></div>

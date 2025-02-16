@@ -50,9 +50,11 @@
   <footer class="footer">
     <div class="container">
       <div class="footer-top">
+      <a href="./">
         <svg class="logo-svg footer-logo">
           <use href="img/sprite.svg#logo"></use>
-        </svg>
+        </svg> </a>
+
         <a href="tel:+74996861014" class="footer-phone">+7 (499) 686-10-14</a>
 
         <div class="footer-info">

@@ -385,7 +385,7 @@ background-color: rgb(92, 142, 230);
 
  .steps-text {
   color: rgb(130, 138, 153);
-  font-family: Noto Sans;
+  font-family: 'Noto Sans';
   font-size: 1rem;
   font-weight: 400;
   line-height: 160%;
@@ -400,7 +400,7 @@ background-color: rgb(92, 142, 230);
   align-items: center;
   text-decoration: none;
   color: rgb(92, 142, 230);
-  font-family: Noto Sans;
+  font-family: 'Noto Sans';
   font-size: 1rem;
   font-weight: 600;
   line-height: 160%;
@@ -471,7 +471,7 @@ background-color: rgb(92, 142, 230);
 color: rgb(41, 45, 51);
 font-size: 1.75rem;
 font-weight: 400;
-font-family: Noto Sans;
+font-family: 'Noto Sans';
 line-height: 140%;
 margin-top: 0;
 margin-bottom: .625rem;
@@ -481,7 +481,7 @@ transition: color 0,2s;
 .card-text {
 color: rgb(130, 138, 153);
 font-size: 1rem;
-font-family: Noto Sans;
+font-family: 'Noto Sans';
 font-weight: 400;
 line-height: 160%;
 margin-bottom: 22.625rem;
@@ -529,7 +529,7 @@ margin-bottom: 22.625rem;
  .card-mark-title {
   color: rgb(41, 45, 51);
   font-size: 1.75rem;
-  font-family: Noto Sans;
+  font-family: 'Noto Sans';
   font-weight: 400;
   text-align: left;
   line-height: 140%;
@@ -586,7 +586,7 @@ margin-bottom: 22.625rem;
 .trademark-card-title {
   color: rgb(41, 45, 51);
  font-size: 1.75rem;
- font-family: Noto Sans;
+ font-family: 'Noto Sans';
  font-weight: 400;
  line-height: 160%;
  margin: 0;
@@ -597,7 +597,7 @@ margin-bottom: 22.625rem;
 color: rgb(130, 138, 153);
 font-size: 1rem;
 font-weight: 400;
-font-family: Noto Sans;
+font-family: 'Noto Sans';
 line-height: 160%;
 grid-area: text;
 margin-top: 10px;
@@ -657,7 +657,7 @@ margin-top: 10px;
 
 .founder-text {
   color: rgb(130, 138, 153);
-  font-size: 16px;
+  font-size: 1rem;
   font-family: 'Noto Sans';
   font-weight: 400;
   line-height: 160%;
@@ -691,7 +691,7 @@ margin-top: 10px;
   gap: 1.25rem;
   color: rgb(41, 45, 51);
   font-size: 18px;
-  font-family: Noto Sans;
+  font-family: 'Noto Sans';
   font-weight: 400;
   line-height: 160%;
   margin-bottom: 1.25rem;
@@ -739,6 +739,7 @@ filter: grayscale(95%);
   flex-direction: column;
   position: relative;
   min-height: 25rem;
+  font-family: 'Noto Sans';
   text-decoration: none;
   color: #fff;
   justify-content: flex-end;
@@ -771,7 +772,7 @@ filter: grayscale(95%);
 color: rgb(255, 255, 255);
 font-size: 1.75rem;
 font-weight: 400;
-font-family: Noto Sans;
+font-family: 'Noto Sans';
 line-height: 160%;
 letter-spacing: 0%;
 margin-bottom: 10px;
@@ -782,7 +783,7 @@ margin-top: 0;
 color: rgb(255, 255, 255);
 font-size: 1rem;
 font-weight: 400;
-font-family: Noto Sans;
+font-family: 'Noto Sans';
 line-height: 160%;
 margin: 0px;
 }
@@ -801,8 +802,12 @@ margin: 0px;
   margin-top: 12.375rem;
 }
 
+.about-cont {
+position: relative;
+}
+
 .about-photo {
-  
+  position: absolute;
   left: 0;
   width: 30rem;
   top: 0;
@@ -823,15 +828,17 @@ margin: 0px;
 
 .about-text {
   color: rgb(130, 138, 153);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 160%;
+  font-family: 'Noto Sans';
   text-align: left;
   margin: 0;
 }
 
 .black-header-features {
   display: flex;
+  font-family: 'Noto Sans';
   min-height: 10.5rem;
   padding: 0;
   margin-top: 6.25rem;
@@ -850,13 +857,16 @@ margin: 0px;
  .about-buttons {
   display: none;
  }
- .prod-photo-wrapper {
-  width: 37.5rem;
-  height: 46.875rem;
+
+ .about-prod {
+  position: relative;
  }
 
  .prod-photo {
-  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
   object-fit: cover;
 }
 
@@ -867,26 +877,28 @@ margin: 0px;
 
 .prod-content-wrapper {
   display: flex;
-  justify-content: flex-end;
-  gap: 13rem;
+  
 }
 
 .prod-text {
   color: rgb(130, 138, 153);
   font-size: 18px;
   font-weight: 400;
-  font-family: Noto Sans;
+  font-family: 'Noto Sans';
   line-height: 160%;
   text-align: left;
   margin: 0;
 }
 
 .section-science-aliance {
+
   margin-top: 6.25rem;
   padding: 2.399rem 0 0 0;
 }
 .science-slider {
+ 
   width: 100%;
+
 }
 .science {
   display: flex;
@@ -1051,7 +1063,7 @@ gap: 1.875rem;
   margin: 0;
   max-width: 23.75rem;
   color: rgb(130, 138, 153);
-  font-family: Noto Sans;
+  font-family: 'Noto Sans';
 font-size: .75rem;
 font-weight: 400;
 line-height: 160%;
@@ -1074,7 +1086,7 @@ line-height: 160%;
   display: flex;
   align-items: center;
   text-decoration: none;
-  font-family: Noto Sans;
+  font-family: 'Noto Sans';
   font-style: normal;
   color: rgb(41, 45, 51);
   gap: 10px;
@@ -1083,7 +1095,7 @@ line-height: 160%;
  .footer-info-address,
  .footer-info-email {
   font-style: inherit;
-  font-family: Noto Sans;
+  font-family: 'Noto Sans';
   text-decoration: inherit;
   color: inherit;
  }
@@ -1091,7 +1103,7 @@ line-height: 160%;
  .footer-phone {
   color: rgb(41, 45, 51);
 font-size: 2rem;
-font-family: Noto Sans;
+font-family: 'Noto Sans';
 font-weight: 600;
 line-height: 160%;
 text-decoration-line: underline;
@@ -1101,7 +1113,7 @@ margin-right: 2.125rem;
 
 .footer-social-link {
   text-decoration: none;
-  font-family: Noto Sans;
+  font-family: 'Noto Sans';
 }
 
 
@@ -1114,7 +1126,7 @@ margin-right: 2.125rem;
 
 .footer-menu-title {
   margin-top: 0;
-  font-family: Noto Sans;
+  font-family: 'Noto Sans';
   margin-bottom: 1.875rem;
 color: rgb(41, 45, 51);
 font-size: 1rem;
@@ -1124,7 +1136,7 @@ line-height: 160%;
 
 .footer-menu-list {
   margin: 0;
-  font-family: Noto Sans;
+  font-family: 'Noto Sans';
   padding-left: 1.25rem;
   list-style: none;
 }
@@ -1139,7 +1151,7 @@ line-height: 160%;
   color: #828a99;
   font-size: 1rem;
 font-weight: 400;
-font-family: Noto Sans;
+font-family: 'Noto Sans';
 line-height: 160%;
 margin-bottom: .9375rem;
 display: block;
@@ -1150,7 +1162,7 @@ display: block;
 font-size: 16px;
 font-weight: 600;
 line-height: 160%;
-font-family: Noto Sans;
+font-family: 'Noto Sans';
 margin-bottom: 1.875rem;
 }
 
@@ -1177,7 +1189,7 @@ margin-bottom: 1.875rem;
 .footer-policy {
   color: rgb(130, 138, 153);
 font-size: .75rem;
-font-family: Noto Sans;
+font-family: 'Noto Sans';
 font-weight: 400;
 line-height: 160%;
 text-decoration: none;
@@ -1237,7 +1249,7 @@ font-family:'Bebas Neue Book';
 color: rgb(41, 45, 51);
 font-size: 3rem;
 font-weight: 400;
-font-family: Noto Sans;
+font-family: 'Noto Sans';
 line-height: 120%;
 margin-top: 0;
 margin-bottom: 20px;
@@ -1389,7 +1401,7 @@ line-height: 120%;
   margin-left: 10px; /* Отступ слева */
   margin-right: 10px; /* Отступ справа */
   color: rgb(130, 138, 153);
-  font-family: Noto Sans;
+  font-family: 'Noto Sans';
   font-size: .875rem;
   font-weight: 400;
   line-height: 160%; 
@@ -1401,6 +1413,7 @@ line-height: 120%;
   text-decoration: none;
   color: rgb(41, 45, 51);
   font-size: .875rem;
+  font-family: 'Noto Sans';
   font-weight: 400;
   line-height: 160%;
   display: block;
@@ -1418,6 +1431,98 @@ line-height: 120%;
   position: relative;
 }
 
+.seo-content {
+  margin-left: .9375rem;
+        margin-right: .9375rem;
+}
+
+.seo-title {
+  color: rgb(41, 45, 51);
+font-family: 'Noto Sans';
+font-size: 28px;
+font-weight: 400;
+line-height: 160%;
+letter-spacing: 0%;
+text-align: left;
+}
+.seo-text {
+color: rgb(130, 138, 153);
+font-family: 'Noto Sans';
+font-size: 16px;
+font-weight: 400;
+line-height: 160%;
+
+text-align: left;
+}
+.button-link-seo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(92, 142, 230);
+  font-family: Noto Sans;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 160%; 
+ 
+}
+.seo-icon {
+  margin-right: 1.1875rem;
+}
+
+.prod-him {
+  position: relative;
+ }
+
+ .prod-him-photo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  object-fit: cover;
+}
+
+
+.prod-autohim-content {
+  max-width: 92rem;
+  
+}
+
+.clients-wrapper {
+  display: flex;
+  gap: 3.125rem;
+  height: auto;
+}
+
+.clients-content {
+  flex-basis: 50%;
+}
+
+.clients-list-autohim {
+  list-style: none;
+  columns: 4 auto;
+  margin-top: 43px;
+    padding: 0;
+}
+
+.autohim-list-item {
+  display: flex;
+  align-items:center;
+  gap: 1.25rem;
+  color: rgb(41, 45, 51);
+  font-size: 1rem;
+  font-family: 'Noto Sans';
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: 1.25rem;
+}
+
+.autohim-list-item::before {
+  content: "";
+  width: 16px;
+  height: 2px;
+  background: rgb(92, 142, 230);
+  margin-right: 1.25rem;
+ }
 
  @media (max-width: 1700px) {
   html {
@@ -1512,6 +1617,10 @@ line-height: 120%;
   display: flex;
  }
 
+ .about-buttons {
+  display: flex;
+ }
+
  .card {
   flex-basis: 33%;
  }
@@ -1552,6 +1661,23 @@ line-height: 120%;
  }
  .header-grey-img {
   display: none;
+}
+
+.prod-photo {
+  position: relative;
+  width: 100%;
+}
+
+.prod-him-photo {
+  position: relative;
+  width: 60%;
+}
+
+.about-photo {
+  position: relative;
+}
+.about-content {
+  max-width: 100%;
 }
 
 }
@@ -1739,6 +1865,12 @@ text-align: left;
   .founder {
     margin-bottom: 60px;
   }
+  .clients-list-autohim {
+    list-style: none;
+    columns: 3 auto;
+    margin-top: 43px;
+      padding: 0;
+  }
   
 }
 
@@ -1788,6 +1920,13 @@ text-align: left;
 
   .footer-menu-wrapper:last-child {
     margin-left: 0rem;
+  }
+
+  .clients-list-autohim {
+    list-style: none;
+    columns: 2 auto;
+    margin-top: 43px;
+      padding: 0;
   }
 
  }
@@ -1896,5 +2035,12 @@ text-align: left;
 .card {
   flex-basis: 100%;
  }
+
+ .clients-list-autohim {
+  list-style: none;
+  columns: 1 auto;
+  margin-top: 43px;
+    padding: 0;
+}
 
 }

@@ -3,15 +3,15 @@ $page_title = 'О компании';
 $header_style = 'header-grey';
 include_once('header-page.php');?>
 <section class="section about">
-    <div class="container">
-  
-      <div class="about-content-wrapper">
+    <div class="container about-cont">
 
       <picture class="about-photo">
       <source type="image/webp" srcset="/img/About.webp">
       <source type="image/jpeg" srcset="/img/About.jpeg">
-      <img src="/img/About.jpeg" alt="founder">
+      <img class="about-photo" src="/img/About.jpeg" alt="about">
       </picture>
+
+      <div class="about-content-wrapper">
 
         <div class="about-content">
           <div class="seporator"></div>
@@ -75,14 +75,21 @@ include_once('header-page.php');?>
   </section>
 
   <section class="section prod">
-    <div class="container">
+    <div class="container about-prod">
   
       <div class="prod-content-wrapper">
 
         <div class="prod-content">
           <div class="seporator"></div>
           <h2 class="section-title">Наше производство</h2>
-          <p class="about-text">РПредварительные выводы неутешительны: разбавленное изрядной долей эмпатии, рациональное мышление обеспечивает широкому кругу (специалистов) участие в формировании глубокомысленных рассуждений. Но граница обучения кадров создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса кластеризации усилий.
+
+          <picture class="prod-photo">
+            <source type="image/webp" srcset="/img/Prod.webp">
+            <source type="image/jpeg" srcset="/img/Prod.jpeg">
+            <img class="prod-photo" src="/img/Prod.jpeg" alt="">
+            </picture>
+
+          <p class="about-text">Предварительные выводы неутешительны: разбавленное изрядной долей эмпатии, рациональное мышление обеспечивает широкому кругу (специалистов) участие в формировании глубокомысленных рассуждений. Но граница обучения кадров создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса кластеризации усилий.
           Реализация намеченных плановых заданий, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для соответствующих условий активизации. Предварительные выводы неутешительны: экономическая повестка сегодняшнего дня требует анализа анализа существующих паттернов поведения.</p>
 
           <ul class="clients-list">
@@ -123,14 +130,9 @@ include_once('header-page.php');?>
               Краски аэрозольные
             </li>
         </div>
-            <div class="prod-photo-wrapper">
-            <picture class="prod-photo">
-            <source type="image/webp" srcset="/img/Prod.webp">
-            <source type="image/jpeg" srcset="/img/Prod.jpeg">
-            <img src="/img/Prod.jpeg" alt="">
-            </picture>
-            </div>
-
+            
+           
+      
       </div>
     
  
@@ -141,15 +143,15 @@ include_once('header-page.php');?>
 
 <?php include_once('./template-parts/founder-block.php');?>
 
-<section class="section-science-aliance">
+<section class="section section-science-aliance">
     <div class="container">
           <div class="seporator"></div>
-          <h2 class="section-title">Исследовательский центр<br>Aliance production</h2>
+          <h2 class="section-title">Исследовательский центр<br><b>Aliance production</b></h2>
           <div class="sciense-text-wpapper">
             <p class="science-text"></p>
           </div>
     </div>
-    <!-- Slider main container -->
+      <!-- Slider main container -->
 <div class="swiper science-slider">
   <!-- Additional required wrapper -->
   <ol class="swiper-wrapper science">
@@ -159,7 +161,7 @@ include_once('header-page.php');?>
             <picture class="science-photo">
             <source type="image/webp" srcset="/img/blog/Blog1.webp">
             <source type="image/jpeg" srcset="/img/blog/Blog1.png">
-            <img src="/img/blog/Blog1.png" alt="">
+            <img class="science-photo" src="/img/blog/Blog1.png" alt="">
             </picture>
           
     </li>
@@ -168,7 +170,7 @@ include_once('header-page.php');?>
             <picture class="science-photo">
             <source type="image/webp" srcset="/img/blog/Blog2.webp">
             <source type="image/jpeg" srcset="/img/blog/Blog2.png">
-            <img src="/img/blog/Blog2.png" alt="">
+            <img class="science-photo" src="/img/blog/Blog2.png" alt="">
             </picture>
           
     </li>
@@ -177,7 +179,7 @@ include_once('header-page.php');?>
             <picture class="science-photo">
             <source type="image/webp" srcset="/img/blog/Blog1.webp">
             <source type="image/jpeg" srcset="/img/blog/Blog1.png">
-            <img src="/img/blog/Blog1.png" alt="">
+            <img class="science-photo" src="/img/blog/Blog1.png" alt="">
             </picture>
           
     </li>
@@ -186,13 +188,14 @@ include_once('header-page.php');?>
             <picture class="science-photo">
             <source type="image/webp" srcset="/img/blog/Blog2.webp">
             <source type="image/jpeg" srcset="/img/blog/Blog2.png">
-            <img src="/img/blog/Blog2.png" alt="">
+            <img class="science-photo" src="/img/blog/Blog2.png" alt="">
             </picture>
           
     </li>
   </ol>
 </div>
 <div class="container">
+
  <!-- If we need navigation buttons -->
  <div class="science-buttons primary-buttons-wrapper">
     <div class="science-button-prev primary-button-prev">

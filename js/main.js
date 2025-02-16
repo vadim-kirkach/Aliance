@@ -168,7 +168,11 @@ const swiperBlack = new Swiper('.black-slider', {
 
 const swiperScience = new Swiper('.science-slider', {
   speed: 400,
-slidesPerView: 2,
+  loop: true,
+//set to your total number of slides
+centeredSlides: true,
+initialSlide: 2,
+
   navigation: {
     nextEl: ".science-button-next",
     prevEl: ".science-button-prev",
