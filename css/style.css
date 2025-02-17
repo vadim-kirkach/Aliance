@@ -744,6 +744,7 @@ filter: grayscale(95%);
   color: #fff;
   justify-content: flex-end;
   padding: 3.125rem;
+  max-width: 43.0625rem;
 }
 
 .blog-card::before {
@@ -793,6 +794,57 @@ margin: 0px;
   align-items: center;
   margin-top: 1.875rem;
   justify-content: space-between;
+}
+
+.blog-cards-page {
+display: flex;
+flex-direction: row;
+gap: 30px;
+flex-wrap: wrap;
+}
+.num-list-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+.num-list {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.num-link {
+  text-decoration: none;
+  color: rgb(41, 45, 51);
+font-family: Noto Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 160%;
+letter-spacing: 0%;
+text-align: center;
+margin-right: .75rem;
+margin-left: .75rem;
+}
+.num-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  text-decoration: none;
+  width: 3.125rem;
+  height: 3.125rem;
+}
+.active-page {
+border: 3px solid rgb(92, 142, 230);
+}
+
+.privacy-text {
+  color: rgb(41, 45, 51);
+font-family: Noto Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 160%;
+letter-spacing: 0%;
+text-align: left;
 }
 
 .about-page {
