@@ -1,4 +1,4 @@
-<section class="section section-light">
+<section class="section section-light section-light-three">
     <div class="container container-white">
       <div class="seporator"></div>
       <h2 class="section-title">схема работы</h2>

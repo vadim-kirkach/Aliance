@@ -262,6 +262,7 @@ background-color: rgb(92, 142, 230);
   list-style: none;
   color: #fff;
   position: relative;
+  margin-bottom: 0;
  }
 
  .header-features-item {
@@ -314,7 +315,7 @@ background-color: rgb(92, 142, 230);
 
  .section-light {
   padding: 0 5.875rem 0 5.875rem;
-  margin-bottom: 9.375rem;
+  margin-bottom: 6.875rem;
 
   /*padding: 0.630rem;
   margin-top: 1.75rem;
@@ -322,10 +323,61 @@ background-color: rgb(92, 142, 230);
   ;*/
  }
 
- .section-production {
+ .section-light-three {
   padding: 0 5.875rem 0 5.875rem;
-  margin-bottom: 9.375rem;
+  
  }
+
+ .section-production {
+  margin-bottom: 9rem;
+
+ }
+
+ .section-production-three {
+
+ }
+
+ .section-trademark {
+  
+ }
+
+ .section-trademark-three {
+
+ }
+
+
+ .founder {
+  position: relative;
+  margin-bottom: 9rem;
+  /*padding: 0 5.875rem;
+  margin-top: 12.375rem;*/
+}
+
+.founder-three {
+
+}
+
+.clients {
+  margin-top: 15.575rem;
+  margin-bottom: 11.375rem;
+}
+
+.clients-three {
+  
+}
+
+
+.blog {
+  
+}
+
+.blog-three {
+  
+}
+
+.cta {
+  margin-top: 11.975rem;
+}
 
  .section-mark {
   padding: 0 5.875rem 0 5.875rem;
@@ -444,7 +496,7 @@ background-color: rgb(92, 142, 230);
  .cards {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 1.4rem;
+  padding-top: 1.7rem;
   max-width: 90.625rem;
  }
 
@@ -553,10 +605,7 @@ margin-bottom: 22.625rem;
   margin: 3.125rem 3.125rem 3.125rem 3.125rem;
  }
 
- .section-trademark {
-  padding: 0 5.875rem 0 5.875rem;
-  margin-bottom: 9.375rem;
- }
+
 
 .trademark-cards {
   display: flex;
@@ -632,13 +681,7 @@ margin-top: 10px;
 }
 */
 
-.founder {
-  
-  position: relative;
-  margin-top: 10rem;
-  /*padding: 0 5.875rem;
-  margin-top: 12.375rem;*/
-}
+
 
 .founder-photo {
   position: absolute;
@@ -650,6 +693,7 @@ margin-top: 10px;
 .founder-content {
   max-width: 45rem;
   padding-left: 2rem;
+  padding-top: 2.7rem;
 }
 
 .founder-content-wrapper {
@@ -667,9 +711,7 @@ margin-top: 10px;
   margin: 0;
 }
 
-.clients {
-  margin-top: 6rem;
-}
+
 .clients-wrapper {
   display: flex;
   gap: 3.125rem;
@@ -728,9 +770,7 @@ filter: grayscale(95%);
 -webkit-filter: grayscale(95%);
 }
 
-.blog {
-  padding-top: 11.399rem;
-}
+
 
 .title-blog {
   margin-bottom: 3.5rem;
@@ -850,7 +890,7 @@ text-align: left;
 }
 
 .about {
-  padding-top: 6.399rem;
+  padding-top: 0;
 }
 
 .about-page {
@@ -919,7 +959,7 @@ position: relative;
  }
 
 .prod {
-  padding: 11.499rem 5.875rem 0 2.875rem;
+  padding: 2.199rem 5.875rem 0 2.875rem;
   margin-bottom: 18rem;
 }
 

@@ -1,4 +1,4 @@
-<section class="section clients">
+<section class="section clients clients-three">
     <div class="container">
       <div class="seporator"></div>
       <div class="clients-wrapper">

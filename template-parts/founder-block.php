@@ -1,5 +1,5 @@
 
-<section class="section founder">
+<section class="section founder founder-three">
     <picture class="founder-photo">
       <source type="image/webp" srcset="/img/founder.webp">
       <source type="image/jpeg" srcset="/img/founder.jpeg">

@@ -1,5 +1,5 @@
  
-<section class="section section-production">
+<section class="section section-production section-production-three">
     <div class="container-white">
     <?php
       if (!empty($block_title)) {

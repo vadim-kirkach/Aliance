@@ -224,7 +224,7 @@
   
   <?php include_once('./template-parts/clients-block.php');?>
   <!-- /.section clients -->
-   <section class="section blog">
+   <section class="section blog blog-three">
     <div class="container">
       <div class="seporator"></div>
       <h2 class="section-title title-blog">Блог экспертов в области производства</h2>

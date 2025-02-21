@@ -3,7 +3,7 @@ $page_title = 'Блог';
 $header_style = 'header-grey header-grey-img';
 include_once('header-page.php');?>
 
-<section class="section blog">
+<section class="section blog-page">
     <div class="container">
     <div class=" blog-cards-page">
   <!-- Additional required wrapper -->
