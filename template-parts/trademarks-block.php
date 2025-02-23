@@ -4,7 +4,7 @@
       <?php
       if (!empty($block_title)) {
         echo '<div class="seporator"></div>';
-        echo '<h2 class="section-title">'. $block_title .'</h2>';
+        echo '<h2 class="section-title section-title-trademarks">'. $block_title .'</h2>';
       }
       ?>
       

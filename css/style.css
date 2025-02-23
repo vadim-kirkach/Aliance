@@ -190,6 +190,7 @@ margin-right: 4.7%;
   text-decoration: none;
   font-size: 1rem;
   padding: 1.5625rem 0.75rem 1.5625rem;
+  color: rgb(255, 255, 255);
 }
 
 .button {
@@ -1067,10 +1068,11 @@ display: flex;
 .cta-form-wrapper {
   display: flex;
   justify-content: flex-end;
+  max-width: 92rem;
 }
 .cta-form {
-  max-width: 51.25rem;
-  margin-right: 99px;
+  width: 52.5rem;
+ 
 }
 .cta-form-text {
 color: rgb(130, 138, 153);
@@ -1119,7 +1121,7 @@ gap: 1.875rem;
   left: 1.975rem;
   color: rgb(130, 138, 153);
   font-family: 'Noto Sans';
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 160%;
   transition: top 0.2s, left 0.2s, font-size 0.2s;
@@ -1158,13 +1160,14 @@ gap: 1.875rem;
 
  .cta-form-footer {
   display: flex;
-  margin-top: 1.25rem;
+  margin-top: 2rem;
   align-items: center;
   gap: 1.875rem;
  }
 
  .cta-form-button {
   flex-shrink: 0;
+  padding: 1.2rem 2.9375rem;
  }
 
  .notify {
@@ -1964,7 +1967,7 @@ text-align: left;
 }
 
 .header-image {
-  height: 989px;
+  height: 956px;;
   margin-bottom: 68px;
 }
 .section-light {
@@ -1977,6 +1980,7 @@ text-align: left;
 }
 .steps-num {
   font-size: 4rem;
+  font-weight: 600;
 }
 .steps-title {
   margin-top: 0.713rem;
@@ -1999,6 +2003,10 @@ text-align: left;
     columns: 3 auto;
     margin-top: 43px;
       padding: 0;
+  }
+
+    .cards {
+    padding-top: 0.5rem;
   }
   
 }
@@ -2031,8 +2039,9 @@ text-align: left;
   .founder-photo {
     position: relative;
     width: 100%;
-    margin-bottom: 3.125rem;
+    margin-bottom: 1.525rem;
   }
+
   
   .input-group-wrapper {
     flex-direction: column;
@@ -2073,19 +2082,31 @@ text-align: left;
   }
   .section-light {
     padding: 2.399rem 0.875rem 0 0.875rem;
+      margin-bottom: 5.7rem;
   }
   .section-production {
     padding: 2.399rem 0.875rem 0 0.875rem;
+    margin-bottom: 6rem;
   }
   .section-trademark {
     padding: 2.399rem 0.875rem 0 0.875rem;
+    margin-bottom: 5.375rem;
   }
   .clients  {
     padding: 2.399rem 0.875rem 0 0.875rem;
+    margin-top: 6.975rem;
   }
   .founder {
     padding-right: 0;
     padding-left: 0;
+  }
+
+  .founder-text {
+    font-size: 14px;
+    margin-bottom: 2rem;
+  }
+  .section-title-founder {
+    margin-bottom: 1.125rem;
   }
   .container-white {
     min-width: 90%;
@@ -2099,23 +2120,23 @@ text-align: left;
   } 
 
   .header-text {
-      max-width: 45rem;
-      font-size: 1.325rem;
-      font-weight: 400;
-      line-height: 131%;
-      margin-bottom: 3rem;
-      margin-top: 1.5rem;
-      letter-spacing: 0.4px;
-  }
+    max-width: 45rem;
+    font-size: 1.2rem;
+    font-weight: 340;
+    line-height: 148%;
+    margin-bottom: 2.6rem;
+    margin-top: 1.5rem;
+    letter-spacing: 0.2px;
+}
   .header-content {
     padding-top: 3.97rem;
   }
 
   .header-button {
-    padding: 1.5rem 7.1rem;
+    padding: 0.5rem 2.1rem;
     height: 62px;
     width: 345px;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
 
   .trademark-card {
@@ -2125,10 +2146,29 @@ text-align: left;
   }
 .clients-list{
   columns: 1;
+  margin-bottom: 0;
+}
+
+.clients-list-item {
+  font-size: 14px;
 }
 
 .clients-logo-item {
   flex-basis: 50%;
+  padding: 2.5rem;
+}
+
+.clients-logo-list {
+  padding-top: 0;
+}
+
+.clients-wrapper {
+  gap: 0.125rem;
+}
+
+.clients-logo {
+  width: 46px;
+  height: 46px;
 }
 
 .cta-form-wrapper {
@@ -2175,6 +2215,43 @@ text-align: left;
     padding: 0;
 }
 
+.header-logo {
+padding: 1rem;
+}
 
+.logo-svg {
+max-width: 10rem;
+}
+
+.features-slider {
+  margin-top: 0.6rem;
+}
+.header-features-item {
+  height: 138px;
+}
+
+.section-title-trademarks {
+  font-size: 2.9rem;
+}
+
+.trademark-cards {
+  margin-top: 2.775rem;
+}
+.trademark-card-logo {
+ 
+  height: 93px;
+}
+
+.trademark-card-text {
+  font-size: 1.1rem;
+ }
+
+ .trademark-card {
+  padding: 2.825rem;
+ } 
+
+ .button-link {
+  font-size: 14px;
+ }
 
 }

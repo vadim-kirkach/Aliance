@@ -92,10 +92,10 @@
       <div class="mobile-menu-line"></div>
     </a>
     <a href="./" class="header-logo">
-      <svg class="logo-svg logo-light" width="140px" height="44px">
+      <svg class="logo-svg logo-light" >
         <use href="img/sprite.svg#logo-light"></use>
       </svg>
-      <svg class="logo-svg logo-dark" width="140px" height="44px">
+      <svg class="logo-svg logo-dark" >
         <use href="img/sprite.svg#logo"></use>
       </svg>
     </a>
