@@ -1049,14 +1049,14 @@ display: flex;
 
 .bg-grey {
   background: rgb(240, 242, 245);
-  
+
 }
 
 .section-cta {
   position: relative;
   padding-top: 6.25rem;
   padding-bottom: 6.25rem;
-  margin-top: 2rem
+  margin-top: 2rem;
 }
 .cta-image {
   position: absolute;
@@ -2086,20 +2086,25 @@ text-align: left;
   }
   .section-production {
     padding: 2.399rem 0.875rem 0 0.875rem;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
   }
   .section-trademark {
     padding: 2.399rem 0.875rem 0 0.875rem;
-    margin-bottom: 5.375rem;
+    margin-bottom: 5.75rem;
   }
   .clients  {
     padding: 2.399rem 0.875rem 0 0.875rem;
     margin-top: 6.975rem;
+    margin-bottom: 6.85rem;
   }
   .founder {
     padding-right: 0;
     padding-left: 0;
   }
+
+  .blog {
+    margin-bottom: 8.1rem;
+}
 
   .founder-text {
     font-size: 14px;
@@ -2146,16 +2151,22 @@ text-align: left;
   }
 .clients-list{
   columns: 1;
-  margin-bottom: 0;
+  margin-bottom: .8125rem;
+  margin-top: 35px;
 }
 
 .clients-list-item {
   font-size: 14px;
+  gap: 1.785rem;
 }
 
 .clients-logo-item {
   flex-basis: 50%;
   padding: 2.5rem;
+}
+
+.clients-logo-item:last-child {
+  display: none;
 }
 
 .clients-logo-list {
@@ -2253,5 +2264,47 @@ max-width: 10rem;
  .button-link {
   font-size: 14px;
  }
+
+ .blog-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 16.2rem;
+  font-family:'Noto Sans';
+  text-decoration: none;
+  color: #fff;
+  justify-content: flex-end;
+  padding: 1.125rem;
+  max-width: 43.0625rem;
+ }
+
+ .blog-card-text {
+  display: none;
+ }
+ .blog-card-title {
+  font-weight: 400;
+  font-family: 'Noto Sans';
+  line-height: 113%;
+  margin-bottom: 4px;
+ }
+
+ .title-blog {
+  margin-bottom: 2.75rem;
+}
+
+.cta {
+  margin-top: 0;
+}
+
+.cta-form-text {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.section-cta {
+  position: relative;
+  padding-top: 2.25rem;
+
+}
 
 }
