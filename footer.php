@@ -131,7 +131,7 @@
         </div><!-- footer-menu-wrapper -->
 
         <div class="footer-menu-wrapper">
-          <ul class="footer-menu-list">
+          <ul class="footer-menu-list footer-menu-list-bold">
             <li class="footer-menu-item">
               <a href="#" class="footer-menu-link footer-menu-link-bold">О компании</a>
             </li>
