@@ -1368,7 +1368,7 @@ text-decoration: none;
 .modal-title {
 font-family:'Bebas Neue Book';
 color: rgb(41, 45, 51);
-font-size: 3rem;
+font-size: 2.6rem;
 font-weight: 400;
 font-family: 'Noto Sans';
 line-height: 120%;
@@ -1810,6 +1810,10 @@ text-align: left;
   display: none;
 }
 
+.footer-menu-wrapper:last-child {
+  margin-left: 0rem;
+}
+
 }
 
  @media (max-width: 992px) {
@@ -1954,12 +1958,14 @@ text-align: left;
   transform: rotate(-45deg) translateY(-10px);
 }
 
+
+
 .trademark-cards {
   flex-direction: column;
 }
 
 .card {
-  flex-basis: 33%;
+  flex-basis: 50%;
 }
 
 .clients-wrapper {
@@ -1998,6 +2004,10 @@ text-align: left;
   .founder {
     margin-bottom: 60px;
   }
+
+.founder-content {
+    max-width: 31rem;
+}
   .clients-list-autohim {
     list-style: none;
     columns: 3 auto;
@@ -2032,9 +2042,12 @@ text-align: left;
   }
 
   .card {
-    flex-basis: 50%;
+    flex-basis: 100%
   }
 
+  .card-image {
+    width: 90%;
+  }
 
   .founder-photo {
     position: relative;
