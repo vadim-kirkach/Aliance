@@ -666,6 +666,7 @@ margin-top: 10px;
 .trademark-card:hover .trademark-card-title {
   color: #5C8EE6;
 }
+
 /*
 .no-webp .founder-picture {
   background-image: url("../img/founder.png");
@@ -762,6 +763,7 @@ margin-top: 10px;
   -webkit-filter: grayscale(0%);
   transition: all 0.6s ease 0s;
 }
+
 
 .clients-logo {
 max-width: 100%;
@@ -1958,6 +1960,34 @@ text-align: left;
   transform: rotate(-45deg) translateY(-10px);
 }
 
+
+.button:hover {
+  background-color: rgb(58, 113, 209);
+} 
+
+.button-link:hover::before {
+  width: 40px;
+ }
+
+ .card:hover .card-title {
+  color: rgb(41, 45, 51);
+ }
+
+ .card:hover {
+  border-color: #ebebf0;
+ }
+
+ .trademark-card:hover {
+  border-color: #ebebf0;
+}
+
+.trademark-card:hover .trademark-card-logo {
+  fill: #828a99;
+}
+
+.trademark-card:hover .trademark-card-title {
+  color: rgb(41, 45, 51);
+}
 
 
 .trademark-cards {
