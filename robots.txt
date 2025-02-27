@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /
+Disallow: *?s=
+Disallow: *?p=
+User-agent: Googlebot
+Disallow: /
+Disallow: *?s=
+Disallow: *?p=
+User-agent: *
+Disallow: /
+Disallow: *?s=
+Disallow: *?p=
+Sitemap: https://site.ru/sitemap.xml

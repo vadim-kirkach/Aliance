@@ -150,39 +150,6 @@
 
        <?php include_once('./template-parts/features-slider.php');?>
 
-
-       <!-- <ul class="header-features">
-        <li class="header-features-item">
-          <svg class="logo-svg" width="36px" height="36px">
-            <use href="img/sprite.svg#time"></use>
-          </svg>
-          <p class="header-features-text">Непрерывная работа c 2017 года</p>
-        </li>
-        <li class="header-features-item">
-          <svg class="logo-svg" width="36px" height="36px">
-            <use href="img/sprite.svg#certificate"></use>
-          </svg>
-          <p class="header-features-text">Вся продукция сертифицирована</p>
-        </li>
-        <li class="header-features-item">
-          <svg class="logo-svg" width="36px" height="36px">
-            <use href="img/sprite.svg#quality"></use>
-          </svg>
-          <p class="header-features-text">Контроль качества на всех этапах</p>
-        </li>
-        <li class="header-features-item">
-          <svg class="logo-svg" width="36px" height="36px">
-            <use href="img/sprite.svg#delivery"></use>
-          </svg>
-          <p class="header-features-text">Возможны поставки по всей России</p>
-        </li>
-        <li class="header-features-item">
-          <svg class="logo-svg" width="36px" height="36px">
-            <use href="img/sprite.svg#speed"></use>
-          </svg>
-          <p class="header-features-text">Оперативное производство</p>
-        </li>
-       </ul> -->
     </div>
     <!-- /.container -->
   </header>
