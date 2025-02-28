@@ -168,7 +168,7 @@ const swiperBlack = new Swiper('.black-slider', {
 
 const swiperScience = new Swiper('.science-slider', {
   speed: 400,
-  loop: true,
+  loop: false,
 //set to your total number of slides
 centeredSlides: true,
 initialSlide: 2,
