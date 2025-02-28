@@ -184,14 +184,13 @@ margin-right: 4.7%;
   font-family: 'Noto Sans';
   gap: .625rem;
   margin-right: 1.5625rem;
-  color: rgb(255, 255, 255);
 }
 
 .header-phone-link {
   text-decoration: none;
   font-size: 1rem;
   padding: 1.5625rem 0.75rem 1.5625rem;
-  color: rgb(255, 255, 255);
+  color: inherit;
 }
 
 .button {
